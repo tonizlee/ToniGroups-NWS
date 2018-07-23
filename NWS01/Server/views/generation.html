@@ -14,41 +14,47 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
 
     <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script> -->
 
 </head>
 
-<body>
-
+<body>    
     <form class="form-horizontal">
         <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <label for="inputName" class="col-sm-2 control-label">Name</label>
             <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                <input type="text" class="form-control" id="inputName" placeholder="Name Input">
             </div>
         </div>
         <div class="form-group">
-            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+            <label for="inpoutTelecom" class="col-sm-2 control-label">Telecom</label>
             <div class="col-sm-10">
-                <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                <input type="text" class="form-control" id="inpoutTelecom" placeholder="Telecom Input">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inpoutGender" class="col-sm-2 control-label">Gender</label>
+            <div class="col-sm-10">
+                <select class="form-control">
+                    <option>male</option>
+                    <option>female</option>
+                    <option>other</option>
+                    <option>unknown</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputBirthDate" class="col-sm-2 control-label">Birth Date</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputBirthDate" placeholder="Birth Date Input">
             </div>
         </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-                <div class="checkbox">
-                    <label>
-                        <input type="checkbox"> Remember me
-                    </label>
-                </div>
-            </div>
-        </div>
-        <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Sign in</button>
+                <button type="submit" class="btn btn-default">Generate</button>
             </div>
         </div>
     </form>
-
 </body>
 
 </html>
