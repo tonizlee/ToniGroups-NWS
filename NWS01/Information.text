@@ -1,0 +1,5 @@
+Project : FHIR patient resource handler
+
+Detail
+ - Patient resource generating in web
+ - Patient resource Repository
