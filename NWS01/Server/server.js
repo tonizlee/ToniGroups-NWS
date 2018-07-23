@@ -14,6 +14,11 @@ app.get('/main', function (req, res){
     res.render('main.html')
 })
 
+app.get('/gen', function (req, res){
+    res.render('generation.html')
+})
+
+
 app.listen(4321, function(){
     console.log("Connected 4321 Port")
 })
