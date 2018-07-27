@@ -51,10 +51,17 @@
         </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
-                <button type="submit" class="btn btn-default">Generate</button>
+                <button type="submit" class="btn btn-default" onclick="input()">Generate</button>
             </div>
         </div>
     </form>
+
+    <script type="text/javascript">
+    function input(){
+        var input = document.getElementById("inputName").value
+        console.log(input)
+    }
+    </script>
 </body>
 
 </html>
