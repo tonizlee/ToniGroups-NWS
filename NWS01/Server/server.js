@@ -29,8 +29,8 @@ app.get('/main', function (req, res){
     res.render('main.html')
 })
 
-app.get('/gen', function (req, res){
-    res.render('generation.html')
+app.post('/gen', function (req, res){
+    res.send('The name is ' + req.body.name)
 })
 
 app.listen(4321, function(){
