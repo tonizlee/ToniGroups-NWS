@@ -16,7 +16,6 @@ app.engine('html',ejs.renderFile)
 //     console.log(datas)
 // }
 
-
 app.get('/', function (req, res){
     res.send('Test 4321')
 })
@@ -26,7 +25,7 @@ app.get('/json', function(req, res){
 })
 
 app.get('/main', function (req, res){
-    res.render('main.html')
+    res.render('MainPage.html')
 })
 
 app.post('/gen', function (req, res){
